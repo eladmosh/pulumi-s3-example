@@ -20,3 +20,4 @@ for (let item of require("fs").readdirSync(siteDir)) {
 }
 
 exports.bucketName = siteBucket.bucket; // create a stack export for bucket name
+ export const websiteUrl = siteBucket.websiteEndpoint;
